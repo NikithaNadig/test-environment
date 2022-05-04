@@ -1,0 +1,140 @@
+.App {
+  font-family: "Montserrat", sans-serif;
+}
+
+.wru-subscription-modal {
+  width: 80%;
+  height: 500px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  background-color: #ecf1f3;
+  padding: 5%;
+}
+
+.wru-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 100%;
+}
+
+.wru-column {
+  display: flex;
+  flex-basis: 100%;
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+}
+
+.wru-subscription-auth-img {
+  max-width: 100%;
+  height: auto;
+}
+
+.wru-welcome {
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+}
+.wru-merchant-logo {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 61px;
+  color: #000000;
+}
+.wru-welcome-text {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  margin-left: 20px;
+  color: #004164;
+}
+
+.wru-forms {
+  background: #ffffff;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  height: 100%;
+  padding: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.wru-auth-buttons button {
+  font-size: 12px;
+  background-color: #ecf1f3;
+  border: 1px solid #ecf1f3;
+  color: #8b8c8f;
+  padding: 10px 55px;
+  float: left;
+  box-shadow: 0px 4px 4px #b1d7f3;
+}
+
+/* Clear floats (clearfix hack) */
+.wru-auth-buttons:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.wru-auth-buttons button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+.wru-sign-in {
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+
+.wru-register {
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+.wru-active-option {
+  background: #5aaae8 !important;
+  color: #ffffff !important;
+}
+
+.wru-input {
+  border: 1px solid #02b4b4;
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 100%;
+  height: 10%;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.wru-forms > .wru-input {
+  margin-top: 20%;
+}
+
+.wru-forms > .wru-input ~ .wru-input {
+  margin-top: 0;
+}
+/*
+::placeholder {
+  font-size: 12px;
+  color: #004164;
+  padding-left: 10px;
+}
+*/
+
+.wru-button {
+  color: #ffffff;
+  width: 100%;
+  background: #004164;
+  border-radius: 6px;
+  padding: 10px 60px;
+}

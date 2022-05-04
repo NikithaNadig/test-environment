@@ -1,0 +1,3 @@
+const WRU_SUBSCRIPTION_COOKIE = "clientAccessId";
+
+export { WRU_SUBSCRIPTION_COOKIE };
